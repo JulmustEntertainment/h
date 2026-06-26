@@ -576,27 +576,20 @@
       </div>
       <a href="#" class="btn-outline" onclick="showPage('games')">View All Games</a>
     </div>
-    <div class="games-grid">
+    <div class="games-grid" style="grid-template-columns:1fr 1fr;">
       <div class="game-card">
-        <div class="game-tag">Action RPG</div>
-        <div class="game-icon">⚔️</div>
-        <h3>Veilborn Chronicles</h3>
-        <p>An open-world dark fantasy where your choices fracture the fate of kingdoms. Over 80 hours of story-driven gameplay.</p>
+        <div class="game-tag">Adventure</div>
+        <div class="game-icon">🌲</div>
+        <h3>Larps Of The Forest</h3>
+        <p>Venture deep into an ancient forest where live-action role-playing meets true wilderness survival. Available now — download and start your legend.</p>
         <div class="game-arrow">↗</div>
       </div>
-      <div class="game-card">
-        <div class="game-tag">Sci-Fi Shooter</div>
-        <div class="game-icon">🚀</div>
-        <h3>Null Protocol</h3>
-        <p>Fast-paced zero-gravity combat across fractured space stations. Competitive multiplayer for up to 64 players.</p>
-        <div class="game-arrow">↗</div>
-      </div>
-      <div class="game-card">
-        <div class="game-tag">Survival Horror</div>
-        <div class="game-icon">🩸</div>
-        <h3>The Still Dark</h3>
-        <p>Atmospheric horror set in an abandoned arctic research facility. Tension-first design, zero jump scares.</p>
-        <div class="game-arrow">↗</div>
+      <div class="game-card" style="position:relative;">
+        <div class="game-tag" style="border-color:var(--muted); color:var(--muted);">Coming Soon</div>
+        <div class="game-icon">⚽</div>
+        <h3>Bollgame 8</h3>
+        <p>The most ambitious Bollgame yet. Faster, harder, more chaotic. Bollgame 8 is in development and coming soon — stay tuned.</p>
+        <div class="game-arrow" style="color:var(--muted);">↗</div>
       </div>
     </div>
   </section>
@@ -684,42 +677,18 @@
   <section style="background:var(--dark); padding-top:80px; padding-bottom:80px;">
     <div class="section-label">Leadership</div>
     <h2 style="margin-bottom:2.5rem">The Team Behind the Games</h2>
-    <div class="team-grid">
+    <div class="team-grid" style="grid-template-columns:1fr 1fr; max-width:700px;">
       <div class="team-card">
-        <div class="initials">AK</div>
-        <h4>Anna Karlsson</h4>
-        <div class="role">CEO & Co-Founder</div>
-        <p>Game designer turned studio head. Shipped 8 titles before 30. Obsessed with pacing and emotional arcs.</p>
+        <div class="initials">VG</div>
+        <h4>Von Gooner 67</h4>
+        <div class="role">Co-Founder & Lead Designer</div>
+        <p>The visionary behind Larps Of The Forest. Passionate about immersive world-building and making every player feel like the main character.</p>
       </div>
       <div class="team-card">
-        <div class="initials">ML</div>
-        <h4>Marcus Lindqvist</h4>
-        <div class="role">CTO & Co-Founder</div>
-        <p>Engine architect with a background in physics simulation. Believes every frame is a promise to the player.</p>
-      </div>
-      <div class="team-card">
-        <div class="initials">EA</div>
-        <h4>Elsa Andersson</h4>
-        <div class="role">Creative Director</div>
-        <p>Award-winning narrative designer. Has written over 400,000 words of in-game dialogue across our catalog.</p>
-      </div>
-      <div class="team-card">
-        <div class="initials">JN</div>
-        <h4>Johan Nilsson</h4>
-        <div class="role">Art Director</div>
-        <p>Visual language architect. Worked in film VFX before pivoting to games, and it shows in every cutscene.</p>
-      </div>
-      <div class="team-card">
-        <div class="initials">SR</div>
-        <h4>Sofia Holm</h4>
-        <div class="role">Head of Audio</div>
-        <p>Composer and sound designer. Our games' soundtracks have been streamed over 50 million times on Spotify.</p>
-      </div>
-      <div class="team-card">
-        <div class="initials">PB</div>
-        <h4>Patrik Berg</h4>
-        <div class="role">Head of Publishing</div>
-        <p>Handles the business so the developers don't have to. 12 years in games publishing across three continents.</p>
+        <div class="initials">KS</div>
+        <h4>Kevin Surströmming</h4>
+        <div class="role">Co-Founder & Technical Director</div>
+        <p>The engine master powering Bollgame 8. Known for bold technical solutions and an unconventional approach to game physics.</p>
       </div>
     </div>
   </section>
@@ -756,83 +725,33 @@
     <button class="filter-btn">Indie</button>
   </div>
 
-  <div class="games-list">
+  <div class="games-list" style="grid-template-columns:1fr;">
     <div class="game-row">
-      <div class="game-row-icon">⚔️</div>
+      <div class="game-row-icon">🌲</div>
       <div class="game-row-info">
-        <h3>Veilborn Chronicles</h3>
-        <div class="genre">Action RPG</div>
-        <p>An open-world dark fantasy RPG set in a world where death isn't the end — it's a new beginning. Every choice rewrites the history of three interconnected kingdoms.</p>
+        <h3>Larps Of The Forest</h3>
+        <div class="genre">Adventure</div>
+        <p>Venture deep into an ancient forest where live-action role-playing meets true wilderness survival. Gather your party, craft your legend, and never trust the mushrooms.</p>
         <div class="game-row-meta">
           <div class="meta-pill"><strong>2024</strong>Release Year</div>
-          <div class="meta-pill"><strong>PC / PS5 / XSX</strong>Platforms</div>
-          <div class="meta-pill"><strong>9.1 / 10</strong>Player Score</div>
-        </div>
-      </div>
-    </div>
-    <div class="game-row">
-      <div class="game-row-icon">🚀</div>
-      <div class="game-row-info">
-        <h3>Null Protocol</h3>
-        <div class="genre">Sci-Fi Shooter</div>
-        <p>Zero-gravity tactical shooter across procedurally-generated space debris fields. Ranked mode, cooperative raids, and a brutally deep modding toolkit.</p>
-        <div class="game-row-meta">
-          <div class="meta-pill"><strong>2023</strong>Release Year</div>
-          <div class="meta-pill"><strong>PC / PS5</strong>Platforms</div>
-          <div class="meta-pill"><strong>8.7 / 10</strong>Player Score</div>
-        </div>
-      </div>
-    </div>
-    <div class="game-row">
-      <div class="game-row-icon">🩸</div>
-      <div class="game-row-info">
-        <h3>The Still Dark</h3>
-        <div class="genre">Survival Horror</div>
-        <p>Atmospheric single-player horror set over three long Arctic nights. The monster is never shown directly. The tension is in what you can't see.</p>
-        <div class="game-row-meta">
-          <div class="meta-pill"><strong>2023</strong>Release Year</div>
           <div class="meta-pill"><strong>PC</strong>Platforms</div>
-          <div class="meta-pill"><strong>9.4 / 10</strong>Player Score</div>
+          <div class="meta-pill"><strong>Available Now</strong>Status</div>
         </div>
+        <a href="https://drive.google.com/file/d/1T3gc5G7AbF5J_8BeiGlBgUxsfYr6ZokE/view" target="_blank" class="btn-primary" style="margin-top:1.5rem; display:inline-block;">Download Now</a>
       </div>
     </div>
     <div class="game-row">
-      <div class="game-row-icon">🗺️</div>
+      <div class="game-row-icon">⚽</div>
       <div class="game-row-info">
-        <h3>Ashgate Dominion</h3>
-        <div class="genre">Grand Strategy</div>
-        <p>Build, betray, and dominate a continent across centuries. Political simulation layered with real-time siege battles and dynastic drama.</p>
+        <h3>Bollgame 8</h3>
+        <div class="genre">Sports</div>
+        <p>The legendary Bollgame series returns with its most ambitious entry yet. Faster, harder, and more chaotic than ever — Bollgame 8 is the ultimate ball experience. Coming soon.</p>
         <div class="game-row-meta">
-          <div class="meta-pill"><strong>2022</strong>Release Year</div>
+          <div class="meta-pill"><strong>TBA</strong>Release Year</div>
           <div class="meta-pill"><strong>PC</strong>Platforms</div>
-          <div class="meta-pill"><strong>8.9 / 10</strong>Player Score</div>
+          <div class="meta-pill"><strong>Coming Soon</strong>Status</div>
         </div>
-      </div>
-    </div>
-    <div class="game-row">
-      <div class="game-row-icon">🌌</div>
-      <div class="game-row-info">
-        <h3>Driftborne</h3>
-        <div class="genre">Indie Adventure</div>
-        <p>A wordless journey across a dying cosmos, told entirely through music and light. Won Best Narrative at the Nordic Game Awards 2022.</p>
-        <div class="game-row-meta">
-          <div class="meta-pill"><strong>2021</strong>Release Year</div>
-          <div class="meta-pill"><strong>PC / Switch</strong>Platforms</div>
-          <div class="meta-pill"><strong>9.6 / 10</strong>Player Score</div>
-        </div>
-      </div>
-    </div>
-    <div class="game-row">
-      <div class="game-row-icon">🔥</div>
-      <div class="game-row-info">
-        <h3>Emberfall</h3>
-        <div class="genre">Action RPG</div>
-        <p>Our debut title. A scrappy, passionate action RPG built by three people in a year. Still played by thousands every month.</p>
-        <div class="game-row-meta">
-          <div class="meta-pill"><strong>2017</strong>Release Year</div>
-          <div class="meta-pill"><strong>PC</strong>Platforms</div>
-          <div class="meta-pill"><strong>8.2 / 10</strong>Player Score</div>
-        </div>
+        <button class="btn-outline" style="margin-top:1.5rem; cursor:not-allowed; opacity:.6;" disabled>Coming Soon!</button>
       </div>
     </div>
   </div>
@@ -856,39 +775,39 @@
     <div class="news-grid">
       <div class="news-featured">
         <div class="news-date">June 2026 · Announcement</div>
-        <h2>Veilborn Chronicles: The Shattered Vow DLC Launches This Summer</h2>
-        <p>We're thrilled to announce the first major expansion for Veilborn Chronicles. The Shattered Vow adds a new continent, 25+ hours of new story content, and an entirely new companion system that changes how relationships evolve through combat.</p>
-        <p>Development has been in full swing since last year's Game Awards reveal, and we're finally ready to share what we've been building. Lead Designer Anna Karlsson describes it as "everything we wished we could have put in the main game, with none of the compromises."</p>
+        <h2>Bollgame 8 Officially Announced — Coming Soon!</h2>
+        <p>We're beyond excited to officially confirm that Bollgame 8 is in full development. The eighth entry in our beloved Bollgame series is shaping up to be the biggest, boldest, and most chaotic Bollgame experience we've ever created.</p>
+        <p>Co-Founder Kevin Surströmming calls it "a love letter to everyone who's ever kicked a ball in anger." We can't wait to share more. Wishlist it now and be the first to know when it drops.</p>
         <a href="#" class="btn-primary" style="margin-top:1rem">Read Full Post</a>
       </div>
       <div class="news-card">
         <div class="news-date">May 2026 · Dev Blog</div>
-        <h3>Inside Null Protocol's New Ranked Season System</h3>
-        <p>Our multiplayer team breaks down the philosophy behind Season 4's complete ranked overhaul.</p>
-        <div class="news-tag">Dev Blog</div>
+        <h3>Larps Of The Forest — Patch 1.4 Now Live</h3>
+        <p>New forest biome, improved larp AI behavior, and a fix for the infamous "infinite mushroom" exploit.</p>
+        <div class="news-tag">Update</div>
       </div>
       <div class="news-card">
         <div class="news-date">April 2026 · Company</div>
-        <h3>Julmust Entertainment Opens Second Studio in Malmö</h3>
-        <p>We're expanding. Our new southern Sweden studio will house 20 developers working on our next unannounced title.</p>
+        <h3>Julmust Entertainment Celebrates 10,000 Downloads of Larps Of The Forest</h3>
+        <p>We hit a milestone! Thank you to every adventurer who's stepped into the forest. Von Gooner 67 has a personal message for you.</p>
         <div class="news-tag">Company</div>
       </div>
       <div class="news-card">
-        <div class="news-date">March 2026 · Award</div>
-        <h3>The Still Dark Wins Preservation Award at Nordic Game Conference</h3>
-        <p>Three years on, our horror title is recognized for excellence in sound-driven atmospheric design.</p>
-        <div class="news-tag">Award</div>
+        <div class="news-date">March 2026 · Dev Blog</div>
+        <h3>Behind the Ball: Designing Bollgame 8's Physics Engine</h3>
+        <p>Kevin Surströmming walks through the completely rebuilt ball simulation powering our most ambitious sports title yet.</p>
+        <div class="news-tag">Dev Blog</div>
       </div>
       <div class="news-card">
         <div class="news-date">February 2026 · Update</div>
-        <h3>Driftborne Free Weekend — Plus a Surprise Update</h3>
-        <p>Driftborne is free-to-play for 72 hours this weekend, and we're dropping a brand new epilogue chapter.</p>
+        <h3>Larps Of The Forest Free Weekend — Invite a Friend!</h3>
+        <p>Larps Of The Forest is free to download this weekend. Grab a friend, head into the woods, and try not to get lost.</p>
         <div class="news-tag">Update</div>
       </div>
       <div class="news-card">
         <div class="news-date">January 2026 · Dev Blog</div>
-        <h3>Year in Review: 2025 Was Our Biggest Year Yet</h3>
-        <p>Reflections on Veilborn's launch, what surprised us, what we learned, and what's next for the studio.</p>
+        <h3>Year in Review: Two Founders, Two Games, One Wild Year</h3>
+        <p>Von Gooner 67 and Kevin Surströmming reflect on Larps Of The Forest's launch and what's coming next for the studio.</p>
         <div class="news-tag">Dev Blog</div>
       </div>
     </div>
@@ -1016,9 +935,8 @@
     <div class="footer-col">
       <h4>Games</h4>
       <ul>
-        <li><a href="#" onclick="showPage('games')">Veilborn Chronicles</a></li>
-        <li><a href="#" onclick="showPage('games')">Null Protocol</a></li>
-        <li><a href="#" onclick="showPage('games')">The Still Dark</a></li>
+        <li><a href="https://drive.google.com/file/d/1T3gc5G7AbF5J_8BeiGlBgUxsfYr6ZokE/view" target="_blank">Larps Of The Forest</a></li>
+        <li><a href="#" onclick="showPage('games')">Bollgame 8 (Soon)</a></li>
         <li><a href="#" onclick="showPage('games')">All Games</a></li>
       </ul>
     </div>
